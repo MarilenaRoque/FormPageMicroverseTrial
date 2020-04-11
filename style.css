@@ -1,3 +1,23 @@
+#title-block {
+    margin: 10px 10px 10px 10px;
+}
+
+#title {
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+    color: white;
+    text-align: center;
+}
+
+#description {
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+    color: white;
+    text-align: center;
+}
+
 body{
         background-image: url("universe.jpg");
         background-size: cover;
@@ -8,7 +28,23 @@ body{
     display: block;
     background-color:rgba(204, 224, 255, 0.5);
     width: 50%; 
-    padding-left: auto;
-    padding-right: auto;
+    padding: 25px 25px 25px 25px;
     margin: auto;
+    border-radius: 10%;
+}
+
+#submit {
+    width: 100px;
+}
+
+#submit:hover {
+    width: 500px;
+}
+
+#submit-button {
+    text-align: center;
+}
+
+.form-element {
+    margin-bottom: 10px;
 }

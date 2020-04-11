@@ -19,10 +19,10 @@
             <input type="text" id="name" required placeholder="Enter your name"><br>
             <label for="email" id="email-label">E-mail:</label><br>
             <input type="email" id="email" required placeholder="Enter your Email"> <br>
-            <label for="age" id="number-label" >Age:</label><br>
-            <input type="number" id="age" min="0" max="100" placeholder="Age"><br>
-            <label for="current-role">Which option best describes your current role?</label> <br>
-            <select id="current-role">
+            <label for="number" id="number-label" >Age:</label><br>
+            <input type="number" id="number" min="0" max="100" placeholder="Age"><br>
+            <label for="dropdown">Which option best describes your current role?</label> <br>
+            <select id="dropdown">
                 <option value="" disabled selected hidden>Please select your role..</option>
                 <option value="undergraduate-student">Undergraduate Student</option>
                 <option value="graduate-student">Graduate Student</option>
@@ -48,13 +48,19 @@
             <input type="checkbox" id="visualization" name="visualization" value="visualization">
             <label for="visualization" name="visualization"> Visualization</label><br>
 
+            <label for="comments">Any comments or suggestions?</label><br>
+
+            <textarea  id="comments" rows="4" cols="50" placeholder="Enter your comment here...">
+            </textarea><br>
+
             <input type="submit" id="submit">
 
 
 
         </form>
 
-        <script href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
     </body>
 
 

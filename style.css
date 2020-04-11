@@ -1,0 +1,14 @@
+body{
+        background-image: url("universe.jpg");
+        background-size: cover;
+        
+}
+
+#survey-form{
+    display: block;
+    background-color:rgba(204, 224, 255, 0.5);
+    width: 50%; 
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+}
